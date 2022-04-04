@@ -1,0 +1,11 @@
+
+In this article, we’ll learn:
+
+    How to delete a local branch in your Git repository,
+    How to delete a remote branch in Git,
+    How to delete all Git branches which have been merged,
+    How to remove all local branches not on remote,
+    How to delete all your local Git branches except master.
+
+
+https://www.ahmedbouchefra.com/delete-local-remote-git-branches/#:~:text=First%2C%20use%20the%20git%20branch%20-a%20command%20to,git%20branch%20-d%20b1%20%23%20Deleted%20branch%20b1.
