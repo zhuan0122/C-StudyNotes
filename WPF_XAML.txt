@@ -1,6 +1,10 @@
 1. how to create Window presentation Foundation App with C#? 
 follow this file and go through it: https://docs.microsoft.com/en-us/dotnet/desktop/wpf/get-started/create-app-visual-studio?view=netdesktop-6.0
 
+2. Follow more interactive one:
+https://docs.microsoft.com/en-us/previous-versions/visualstudio/visual-studio-2010/bb546972(v=vs.100)
+
+
 you should learn: 
     * Windoes Presentation Foundation(WPF) is a UI framework and it is built to take advantage of mordern graphic
     hardware. WPF provides a comprehensive set of application-development features that include Extensive Application 
