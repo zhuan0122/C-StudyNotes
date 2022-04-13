@@ -1,0 +1,11 @@
+1. recovery code> resharper>
+b2s3-x10f nflk-k4po
+d8db-3lyp s6av-e301
+ay89-ffzm 6297-d7io
+oq8d-p5ib rppu-xirk
+6a8f-loo4 33gc-w5iv
+passward>
+dxuu6ymaxiiwevofsvi5o4q09
+
+2. personal token for git clone repository> cZs9CDQ_ry5UyBNtsQ8A and user id> 3232
+git clone https://3232:cZs9CDQ_ry5UyBNtsQ8A@gitlab.scania.com/EPID/SesammTool2.git

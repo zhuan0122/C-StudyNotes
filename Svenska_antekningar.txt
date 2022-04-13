@@ -1,0 +1,25 @@
+1. i C#, Variable som är typ av värde typ är lagras i stack och Variable som är typ av reference är lagars i heap. detta heap minne 
+är mer hållbart kontra stack. Så om du skapade ett objekt och det får vårt av omfattning. det kommer att försätt  att esistera i heap 
+ett tag och inte tas bort omedellbart. Det finns en klass som kallas skräpinsamling som görs efter run time eller CLR som tar hand om dem.
+då och då kommer CLR att titta op objekt som inte användas och kommer att ta bort dem från vår minnes heap. 
+
+
+orden : lagras: stored, hållbart: sustaninable. omedellbart: immediately. skräpinsamling: garbage collection. exist: existera.
+minnes: memory, enkel citatecken, dubbla citattecken: quotes
+
+2. för varibale som är typ av värde, när du kopirera variale a tilldelas variable b. Så en ny tilldeling i minnes stack är skapade and lagrade 
+variable a's värde. variable a och b i minnes är helt oberoende. om du ändrar värde i a som ska inte påverka värde i variable b. 
+
+men för reference typ variable, när du skapar en ny variable kallas arr1 med new operator som ska skapa en heap i minnes och lagrar värde av arr1 
+arr1 är lagras i stack och det pekar på värde i heap i minnes.  arr1 -----> {1,2,3} och sen du kopirerar arr1 till arr2. Annan variable arr2 skapas i stack minnes som lagras i 
+samma minnes som variable arr1. arr2 pekar på heap värde också. arr1 och arr2 i stack håller minnes adress var vi lagrar värder. arr1 och arr2 har samma adress 0x004416A till example.
+
+detta adress är adress på heap så alla variable som pekar på samma heap värder i minnes har samma adress lagras. 
+så när du ändrar vårt heap värde element via arr1 eller arr2, det kommer att ändra värde i adress om heap. Så alla variable som pekar på den adress har värder ändras också. 
+de är inte oberoende kontra värde typ variable som vi beskriva/förklara ovan. 
+
+Orden: perkar på: points to, förklara: explain, ändringarna är synliga genom ändra variablers. 
+
+3. Om du definerar metod med static modifier, så vi kan anropa metod eller funktion utan att skapa ett objekt 
+
+orde: anropa: call function or method 
