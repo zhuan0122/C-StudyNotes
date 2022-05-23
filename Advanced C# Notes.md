@@ -757,9 +757,11 @@ public EventHandler<VideoEventArgs> VideoEncoded; //less code same things by usi
 If you do not want to send additonal data to subscriber, you could replace the generic form of EventHandler and use the normal form as:
 public EventHandler VideoEncoded; 
 
+
 ## 5. Extension Method 
 ### 5.1 What is extension method?
 Extension method gives ability to add methods to an existing class without changing its source code or creating a new type inheriting from the existing class. 
+
 
 
 ## 6. ICollection Vs List vs IEnumeralble<> vs IDictionary vs IQuery 
