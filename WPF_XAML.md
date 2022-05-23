@@ -6,6 +6,7 @@ https://docs.microsoft.com/en-us/previous-versions/visualstudio/visual-studio-20
 
 
 you should learn: 
+
     * Windoes Presentation Foundation(WPF) is a UI framework and it is built to take advantage of mordern graphic
     hardware. WPF provides a comprehensive set of application-development features that include Extensive Application 
     Markup langaugge(XAML), controls, data binding, layout, 2D or 3D graphics, animations, styles, templates,...

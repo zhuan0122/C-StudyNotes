@@ -8,4 +8,16 @@ passward>
 dxuu6ymaxiiwevofsvi5o4q09
 
 2. personal token for git clone repository> cZs9CDQ_ry5UyBNtsQ8A and user id> 3232
+h
 git clone https://3232:cZs9CDQ_ry5UyBNtsQ8A@gitlab.scania.com/EPID/SesammTool2.git
+git pull https://3232:cZs9CDQ_ry5UyBNtsQ8A@gitlab.scania.com/EPID/SesammTool2.git
+git push https://3232:cZs9CDQ_ry5UyBNtsQ8A@gitlab.scania.com/EPID/SesammTool2.git
+git fect https://3232:cZs9CDQ_ry5UyBNtsQ8A@gitlab.scania.com/EPID/SesammTool2.git
+https://gitlab.scania.com/EPID/SesammTool2.git
+
+3. Devexpress: 
+(https://nuget.devexpress.com/VVclHPjXjP7x96qK7mG89DJvcgOpOlV1QA7i1vvCdAXAVlVqxS/api)
+
+4. localhost data base 
+C:\Program Files\Microsoft SQL Server
+sesoco3268

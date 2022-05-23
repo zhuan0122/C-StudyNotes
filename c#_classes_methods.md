@@ -152,49 +152,6 @@ Open it as folder(project) in visual studio
 
 
 
-**************************************************
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!1
-
-!!! one class could be one .cs file under the same namespace along with other classes(.cs files) so one namespace would be one application.  
-
-!!!! Refactor: change the structure of the code without changing its functionality ¨
-
-!!!! we should not use pulic as modifier for calsses fileds so I need to learn more about when and how to use these scope modifiers.
-
-!!!! run in debug mode with break point
-move your mouse to the line you want to set break point and then ctrl+ F9-- set break point here 
-then ctrl + F5 to run it with debug mode 
-when we set breakpoint then the running will excute the breakpoint line and stop there and show our data
-
-shift + F5 stop the debug 
-
-!!!! switch betweeen opening .cs files window 
-ctrl + tab hold ctrl but release tab. then use arrow key to select
-
-!!! qiuck way to code Consol.WriteLine()
-cw + tab +tab (click tab twice)
-
-!!!! quick way to create constructor 
-ctor + tab +tab 
-
-!!! shortcuts: 
-    ctrl + F7 stepinto // one step more 
-    ctrl + alt +F7 step out //quit steps 
-    ctrl + F9 toggle breakout point
-    ctrl + F5 run debug mode 
-    ctrl + R  run without debug 
-    ctrl +s save 
-    ctrl + B build solution  
-    ctrl+alt + B rebuild solution
-    ctrl +alt + C clean solution
-    select lines: ctrl+K+C  comment these lines
-    select lines: ctrl +K + U uncomment lines
-
-
-*****************************************************
-
-
-
 1.4 How to represent text as the sequence of UTF 16 unit ??
 UTF 16 means NET uses UTF-16 to encode the text in a string . 
 A char instance represents a 16-bit code unit. A single 16-bit code unit can represent any code point in the 16-bit range of the Basic Multilingual Plane. But for a code point in the supplementary range, two char instances are needed.
@@ -251,7 +208,7 @@ so in this way we can reserve constructors for scenarios where we really need to
      Usages: you do not need to use overload your method but if there are cases where you can improve your code and make it easier for the cusumer of your method. Overloading is a technique in your toolbox. 
 
      practice: 1. create multiple methods with different signatures in class 
-     2. but if you are overloading with similar data type with different number of params. then use Array to do so 
+     1. but if you are overloading with similar data type with different number of params. then use Array to do so 
 
      see methods exercise: C:\Users\HZHSXR\source\repos\Methods\Methods\Program.cs
 
@@ -265,9 +222,3 @@ see example below. we need to avoid to use ref in our code. when we use ref as m
 C:\Users\HZHSXR\source\repos\Methods\Methods\Program.cs
 
 1.6.5 Out modifier
-
-
-
-
-
-
