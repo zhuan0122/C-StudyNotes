@@ -760,8 +760,22 @@ public EventHandler VideoEncoded;
 
 ## 5. Extension Method 
 ### 5.1 What is extension method?
-Extension method gives ability to add methods to an existing class without changing its source code or creating a new type inheriting from the existing class. 
+Extension method gives ability to 
+    * add methods to an existing class without changing its source code or
+    *  creating a new type inheriting from the existing class. 
 
+example of explaining ExtensionMethod 
+namespace ExtensionMethods
+{
+    class Program 
+    {
+        static void Main(string[] args)
+        {
+            string post = "This is supposed to be a very long blog post balh balh balh ..."; 
+
+        }
+    }
+}
 
 
 ## 6. ICollection Vs List vs IEnumeralble<> vs IDictionary vs IQuery 
@@ -1047,13 +1061,17 @@ namespace Linq
 
 
 
-
-
 ### 5.2 coding example 
 This part needs recap later in Visual studio. 
 
 ### 5.3
 
+
+
+### 6 Virtual keyword 
+https://www.tutorialspoint.com/What-are-virtual-functions-in-Chash
+
+The virtual keyword is useful in modifying a method, property, indexer, or event. When you have a function defined in a class that you want to be implemented in an inherited class(es), you use virtual functions. The virtual functions could be implemented differently in different inherited class and the call to these functions will be decided at runtime.
 
 
 
@@ -1120,3 +1138,6 @@ This is a convention that is required for creating extension methods.
  }
  -- List is Generic list indicated by angle bracket <>. Book is type of generic paras. So this generic List is a collection of Books. 
  but what is collection?? 
+
+ ## 10. debugs 
+ ## 11. threads woriking in c# 

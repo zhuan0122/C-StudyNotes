@@ -171,7 +171,7 @@ variable a is accessible anywhere inside the first big block and or any of its c
 it is applied to variables b and c as well
 
 15. decalre strings in double quotes while declare char in single quote
-a string is a series of unicode characters 
+a string is a series of unicode characters > "hi Huan" > [h,i, ,H,u,a,n] ---a sequence of char, each char stores 16 bits value
 a char is a unicode characters 
 
 usually if we decalre byte using var instead of byte type keyword 
