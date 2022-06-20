@@ -267,3 +267,5 @@ Sql("dbo.CanSignalVersions SET Unit = '°C' WHERE Unit = Celcisus ");
 
 
         EntityFramework6\Update-Database -TargetMigration:202103171016091_SplitTables -ConnectionStringName Production -StartUpProjectName SesammTool2 -ProjectName DataLayer
+
+        Sql(@"UPDATE dbo.CanSignalVersions SET Unit= '°C' WHERE ( FullName LIKE '%Temp%' AND Unit='C')");
